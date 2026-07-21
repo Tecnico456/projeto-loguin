@@ -47,14 +47,22 @@ Grandes telas: acima de 1200px
     }
 
     section#loguin > div#imagem { /* Seleciona o elemento div com id "imagem" que é filho do elemento section com id "loguin" */
-        float: left; /* Define o float (que é uma propriedade que permite que um elemento seja posicionado à esquerda ou à direita de seu contêiner) do elemento div com id "imagem" como left fazendo com que ele se posicione à esquerda do elemento pai */
+        float: right
         width: 50%; /* Define a largura do elemento div com id "imagem" como 50% da largura do elemento pai */
         height: 100%; /* Define a altura do elemento div com id "imagem" como 100% da altura do elemento pai */
     }
 
     section#loguin > div#frmulario { /* Seleciona o elemento div com id "frmulario" que é filho do elemento section com id "loguin" */
-        float: right; /* Define o float (que é uma propriedade que permite que um elemento seja posicionado à esquerda ou à direita de seu contêiner) do elemento div com id "frmulario" como right fazendo com que ele se posicione à direita do elemento pai */
+        float: left; 
         width: 50%; /* Define a largura do elemento div com id "frmulario" como 50% da largura do elemento pai */
         
     }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+    font-size: 1.2em;
+}
 }
